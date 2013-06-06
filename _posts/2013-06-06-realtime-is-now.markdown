@@ -11,10 +11,13 @@ be left behind!
 Here's how easy it is to start:
 
 {% highlight php %}
+<?php
+
 require('Pusher.php');
 
 $pusher = new Pusher($key, $secret, $app_id);
 $pusher->trigger('my-channel', 'my-event', array('message' => 'hello world') );
+
 {% endhighlight %}
 
 Go [get your copy of *Realtime Web Apps*][1], set up a [Pusher account][2], and 
