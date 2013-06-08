@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Realtime Is Now!"
-date: 2013-06-06 08:15:24
-categories: realtime, general
+categories: [realtime, general]
 ---
 
 Realtime is fast becoming a non-optional part of web development. Get on board or 
