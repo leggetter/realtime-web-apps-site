@@ -1,13 +1,45 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Realtime Web Apps by Jason Lengstorf and Phil Leggetter
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+        <aside id="book-box">
+            <h3>Get Your Copy from Amazon</h3>
+            <img src="/assets/images/book-cover.png"
+                 title="Realtime Web Apps"
+                 alt="Realtime Web Apps"
+                 class="float-right" />
+            <p class="buy-links">
+                <a href="http://amzn.to/15RKxF3"
+                   title="Realtime Web Apps on Amazon.com (US)"
+                   class="us">USA</a><a href="http://amzon.to/11zkLE5"
+                   title="Realtime Web Apps on Amazon.co.uk (UK)"
+                   class="uk">UK</a>
+            </p><!--/.buy-links-->
+        </aside><!--/#book-box-->
+
+        <p>
+            <em>Realtime Web Apps: With HTML5 WebSocket, PHP, and jQuery</em> is a guide for beginner- to intermediate-level web developers looking to take the next leap forward in website and app development: realtime. 
+        </p>
+        <p>
+            With Realtime Web Apps, you'll be able to quickly get up to speed on what HTML5 WebSocket does, how it is going to affect the future of the web as we know it, and&mdash;thanks to Pusher's simple API&mdash;start developing your first realtime app today. 
+        </p>
+        <p>
+            Only lightly touching on the heavy theory and instead focusing on a practical approach, Realtime Web Apps will guide you through building your first app using HTML5, CSS3, jQuery, and Pusher. After your initial introduction to the technologies used in the book, you'll immediately jump into the process of creating a realtime Q&amp;A app that will work on desktop browsers as well as mobile phones (including iOS and Android). 
+        </p>
+        <p>
+            In addition to learning realtime development strategies, you'll also learn progressive development strategies including responsive CSS3 layouts, AJAX development with jQuery, and more.
+        </p>
+        <p>
+            The future of the web is realtime. Grab your hoverboard.
+        </p>
+
+        <h2>Latest Realtime News</h2>
+        <ul class="posts">
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+

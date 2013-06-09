@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Realtime Is Now!"
+author: "Jason Lengstorf"
 categories: [realtime, general]
 ---
 
@@ -9,7 +10,7 @@ be left behind!
 
 Here's how easy it is to start:
 
-{% highlight php %}
+{% highlight php linenos %}
 <?php
 
 require('Pusher.php');

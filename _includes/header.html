@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <hgroup>
+            <a href="/"
+               id="site-title" 
+               title="{{ site.name }}">{{ site.name }}</a>
+            <p id="tagline">
+                With HTML5 WebSockets, PHP, and jQuery
+            </p>
+        </hgroup>
+        <nav>
+            <ul>
+                <li {% if page.slug == 'blog' %}class="active"{% endif %}>
+                    <a href="/blog/">Blog</a>
+                </li>
+                <li {% if page.slug == 'authors' %}class="active"{% endif %}>
+                    <a href="/authors/">Authors</a>
+                </li>
+                <li {% if page.slug == 'contact' %}class="active"{% endif %}>
+                    <a href="/contact/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
