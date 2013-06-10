@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "Realtime Is Now!"
-author: "Jason Lengstorf"
+title: Realtime Is Now!
+author: Jason Lengstorf
+twitter: @jlengstorf
+gplus: 101737362787862429754
 categories: [realtime, general]
+excerpt: It's easy to get started with realtime. Don't get left behind on the 
+         next big trend in web design!
 ---
 
-Realtime is fast becoming a non-optional part of web development. Get on board or 
-be left behind!
+Realtime is fast becoming a non-optional part of web development. Get on board 
+or be left behind!
 
 Here's how easy it is to start:
 

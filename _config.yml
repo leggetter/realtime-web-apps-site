@@ -1,3 +1,6 @@
-name:       Realtime Web Apps
-pygments:   true
-permalink:  /:title/
+name:           Realtime Web Apps
+pygments:       true
+permalink:      /:title/
+url:            http://realtimewebapps.com
+description:    "Realtime news from web professionals. The future of the web is realtime. Users expect to see what they want, when they want it. Developers should use every tool available to deliver data instantly."
+image:          /assets/images/realtimewebapps_avatar.jpg
