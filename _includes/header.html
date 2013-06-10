@@ -5,31 +5,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter Card & Facebook OG data -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@realtimewebapps" />
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="fb:app_id" content="382899725159845"/>
+    <meta property="fb:admins" content="1468448880,684921145"/>
 {% if page.twitter %}
     <meta name="twitter:creator" content="{{ page.twitter }}" />
 {% endif %}
 {% if page.title %}
     <meta name="twitter:title" content="{{ page.title }}" />
+    <meta property="og:title" content="{{ page.title }}"/>
 {% else %}
     <meta name="twitter:title" content="{{ site.title }}" />
+    <meta property="og:title" content="{{ site.title }}"/>
 {% endif %}
 {% if page.excerpt %}
     <meta name="twitter:description" content="{{ page.excerpt }}" />
+    <meta property="og:description" content="{{ page.excerpt }}"/>
 {% else %}
     <meta name="twitter:description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ page.excerpt }}"/>
 {% endif %}
 {% if page.image %}
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+    <meta name="og:image" content="{{ site.url }}{{ page.image }}" />
 {% else %}
     <meta name="twitter:image" content="{{ site.url }}{{ site.image }}" />
+    <meta name="og:image" content="{{ site.url }}{{ site.image }}" />
 {% endif %}
 {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-{% endif %} 
-
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+{% endif %}
 {% if page.gplus %}
     <!-- Google Authorship -->
     <link rel="author" href="https://plus.google.com/{{ page.gplus }}" />
