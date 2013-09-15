@@ -2,7 +2,7 @@
 layout: post
 title: 5 Reasons to Learn Realtime Today
 author: Jason Lengstorf
-twitter: @jlengstorf
+twitter: "@jlengstorf"
 gplus: 101737362787862429754
 categories: [realtime, general]
 excerpt: Realtime is here, and it's changing the way the Internet as we know 
