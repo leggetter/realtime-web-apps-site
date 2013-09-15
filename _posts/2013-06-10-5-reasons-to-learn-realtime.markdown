@@ -8,6 +8,7 @@ categories: [realtime, general]
 excerpt: Realtime is here, and it's changing the way the Internet as we know 
          it functions. Here are 5 reasons you should start using realtime in 
          your web applications. Don't get left behind.
+tweetText: 5 Reasons to Learn Realtime by @jlengstorf
 ---
 
 At the corners of the Internet recently, the word "realtime" has been showing up more and more frequently. It's appearing on topic lists for conferences and in articles on the most popular web design magazines. 

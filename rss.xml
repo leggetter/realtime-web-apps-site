@@ -2,7 +2,8 @@
 layout: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+									 xmlns:rtwa="http://realtimewebapps.com">
 	<channel>
 		<title>{{ site.name }}</title>
 		<description>Realtime Web Apps News</description>
@@ -15,6 +16,8 @@ layout: none
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}/{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
+        <author>{{ post.author }}</author>
+        <rtwa:tweetText>{{ post.tweetText }}</rtwa:tweetText>
 			</item>
 		{% endfor %}
 	</channel>
