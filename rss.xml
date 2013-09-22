@@ -18,6 +18,7 @@ layout: none
         <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
         <author>{{ post.author }}</author>
         <rtwa:tweetText>{{ post.tweetText }}</rtwa:tweetText>
+        <rtwa:altTweetText>{{ post.altTweetText }}</rtwa:altTweetText>
 			</item>
 		{% endfor %}
 	</channel>
